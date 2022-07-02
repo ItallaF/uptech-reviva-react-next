@@ -8,7 +8,7 @@ export default function ProductSizeBag() {
 	return (
 		<>
 			{ProductCart.map((products) =>
-				<div  key={products.id}>
+				<div>
 					<MyBagProductTitle>
 						Tamanho escolhido
 					</MyBagProductTitle>

@@ -7,7 +7,7 @@ export default function BagProduct(): any {
 
 	return (
 		ProductCart.map((products) =>
-			<div  key={products.id}>
+			<div >
 				<MyBagProductTitle>
 					{products.nameProduct}
 				</MyBagProductTitle>

@@ -20,7 +20,7 @@ export default function ProductList({ title, ProductsSection }: ProductlistProps
 			<ProductListTitle>{title}</ProductListTitle>
 			<ProductListSection>
 				{ProductsSection.map((products) =>
-					<ProductListContent key={products.id}>
+					<ProductListContent>
 						<ProductListImageBorder>
 							<Link href={`/Details/${products.id}`}><a>
 							<ProductListImageSize src={products.images[0].url}

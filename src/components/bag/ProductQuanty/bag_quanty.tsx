@@ -14,7 +14,7 @@ export default function QuantyBag() {
 					min={1} max={99} onChange={(e) =>
 						newQuanty(products.id, +e.target.value)}
 					value={products.quantityAvailable}
-					key={products.id} />
+					 />
 			)}
 		</div>
 	);
