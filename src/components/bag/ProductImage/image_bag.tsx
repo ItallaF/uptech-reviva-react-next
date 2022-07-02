@@ -7,7 +7,7 @@ export default function ImageBag(): any {
 
 	return (
 		ProductCart.map((products) =>
-			<MyBagImage>
+			<MyBagImage  key={products.id}>
 				<MyBagImageProduct src={products.images[0].url}></MyBagImageProduct>
 			</MyBagImage>
 		)
