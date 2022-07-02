@@ -2,7 +2,7 @@ import { NextPageWithLayout } from '../_app';
 import Layout from '../../src/components/layout';
 import { ReactElement } from 'react';
 import { useProductContext } from '../../src/contexts/productContext';
-import DetailsProduct from './styled';
+import DetailsProduct from '../../src/components/detailsProduct/styled';
 import Banner from '../../src/components/banner/banner';
 import ProductList from '../../src/components/listProduct/listProduc';
 import ImageProductDetais from '../../src/components/detailsProduct/detailsProductImage.tsx/detailsProductImage';

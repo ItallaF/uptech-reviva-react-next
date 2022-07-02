@@ -13,7 +13,7 @@ export default function ImageProductDetais() {
 
 	return (
 		<ImageDetails>
-			<ImageProduct src={products.images[0].url} alt={products.images[0].description} />
+			<ImageProduct src={products?.images[0].url} alt={products?.images[0].description} />
 		</ImageDetails>
 	);
 }

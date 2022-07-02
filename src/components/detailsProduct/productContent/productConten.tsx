@@ -30,29 +30,29 @@ export default function ProductContent() {
 	return (
 		<DetailsProducContent>
 			<DetailsProducContentTitle>
-				{products.nameProduct} {products.price}
+				{products?.nameProduct} {products?.price}
 			</DetailsProducContentTitle>
 			<ProductDescription>
-				{products.description}
+				{products?.description}
 			</ProductDescription>
 			<ProductDescriptionImage>
 				<ProductImageEdge>
-					<ProductImageDescription src={products.images[0].url} alt={products.images[0].description} />
+					<ProductImageDescription src={products?.images[0].url} alt={products?.images[0].description} />
 				</ProductImageEdge>
 				<ProductImageEdge>
-					<ProductImageDescription src={products.images[0].url} alt={products.images[0].description} />
+					<ProductImageDescription src={products?.images[0].url} alt={products?.images[0].description} />
 				</ProductImageEdge>
 				<ProductImageEdge>
-					<ProductImageDescription src={products.images[0].url} alt={products.images[0].description} />
+					<ProductImageDescription src={products?.images[0].url} alt={products?.images[0].description} />
 				</ProductImageEdge>
 				<ProductImageEdge>
-					<ProductImageDescription src={products.images[0].url} alt={products.images[0].description} />
+					<ProductImageDescription src={products?.images[0].url} alt={products?.images[0].description} />
 				</ProductImageEdge>
 			</ProductDescriptionImage>
 			<ButtonImage>
-				{products.sizesAvailable.map((t: any, index: Key) => (
+				{products?.sizesAvailable.map((t: any, index: Key) => (
 					<ImageButtonSize key={index} >
-						{products.sizesAvailable[index]}
+						{products?.sizesAvailable[index]}
 						<ProductListImageButtonSizeInput type='radio' name="size" />
 					</ImageButtonSize>
 				))}
