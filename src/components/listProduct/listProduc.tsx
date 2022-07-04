@@ -3,18 +3,26 @@ import { ProductListButton, ProductListButtonBag, ProductListButtonSvg, ProductL
 import { useCartContext } from '../../contexts/cartContenxt';
 import { useProductContext } from '../../contexts/productContext';
 import Link from 'next/link';
+import React, { useState } from 'react';
+import { request } from 'http';
 
 interface ProductlistProps {
 	title: string;
 	ProductsSection: ProductStock[];
 };
 
-
-
 export default function ProductList({ title, ProductsSection }: ProductlistProps) {
 	const { addProductCart } = useCartContext();
 	const decrement = useProductContext();
-	
+
+	const [listproducts, setListproducts] = useState<ProductStock[]>([]);
+	// const fetchProduct = async () => {
+	// 	const response = await fetch('/api/Details')
+	// 	const data = await response.json();
+	// 	setListproducts(data);
+	//     console.log(data);
+	//   }
+
 	return (
 		<aside>
 			<ProductListTitle>{title}</ProductListTitle>
@@ -23,8 +31,8 @@ export default function ProductList({ title, ProductsSection }: ProductlistProps
 					<ProductListContent key={products.id}>
 						<ProductListImageBorder>
 							<Link href={`/Details/${products.id}`}><a>
-							<ProductListImageSize src={products.images[0].url}
-								alt={products.images[0].description} /></a></Link>
+								<ProductListImageSize src={products.images[0].url}
+									alt={products.images[0].description} /></a></Link>
 							<ProductListImageButton >
 								{products.sizesAvailable.map((t, index) => (
 									<ProductListImageButtonSize key={index} >
