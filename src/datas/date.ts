@@ -11,6 +11,9 @@ export const listProduct = [
     images: [
       {
         url: '/images/products/product01.webp',
+        url1: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/ce9940bb577147616b4b1c0a4123b65de579911b.jpg?imwidth=70',
+        url2: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/e5eef2037c058b5280e6f952004a6123aa3b8534.jpg?imwidth=70',
+        url3: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/2dbe6cad5c3625c262e8bef2e33e1049dc25a74e.jpg?imwidth=70',
         description: 'Camiseta Basic Soft Preto'
       }
     ],
@@ -27,6 +30,9 @@ export const listProduct = [
     images: [
       {
         url: '/images/products/product02.webp',
+        url1: 'https://static.riachuelo.com.br/RCHLO/14418436004/portrait/f9c8bcffa42f7ec733d8cb4309b73937ab2b9b0c.jpg?imwidth=70',
+        url2: 'https://static.riachuelo.com.br/RCHLO/14418436004/portrait/5b1716266409510d77cb3ff3bcc7b3c2fa2cf000.jpg?imwidth=70',
+        url3: 'https://static.riachuelo.com.br/RCHLO/14418436004/portrait/15baf19bf3b43a7dfecf9e11b6589c5a1e267102.jpg?imwidth=70',
         description: 'Short Feminino Clochard Amarração Abstrato Preto'
       }
     ],
@@ -43,6 +49,9 @@ export const listProduct = [
     images: [
       {
         url: '/images/products/product03.webp',
+        url1: 'https://static.riachuelo.com.br/RCHLO/14419580001/portrait/5f595636e3a70fb94fba2fe288f8a874d8e16c28.jpg?imwidth=70',
+        url2: 'https://static.riachuelo.com.br/RCHLO/14419580001/portrait/3f903efb46c33137e163b09d08cf4c9e580fdb61.jpg?imwidth=70',
+        url3: 'https://static.riachuelo.com.br/RCHLO/14419580001/portrait/e8523b45ec7b0a02bdc9be9e6e9b9c13dad61248.jpg?imwidth=70',
         description: 'Calça Feminina Pantalona Cintura Alta Amarração Linho '
       }
     ],
@@ -59,6 +68,9 @@ export const listProduct = [
     images: [
       {
         url: '/images/products/product04.webp',
+        url1: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/ce9940bb577147616b4b1c0a4123b65de579911b.jpg?imwidth=70',
+        url2: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/e5eef2037c058b5280e6f952004a6123aa3b8534.jpg?imwidth=70',
+        url3: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/2dbe6cad5c3625c262e8bef2e33e1049dc25a74e.jpg?imwidth=70',
         description: 'Suéter Masculina Manga Longa Tricot Azul Escuro'
       }
     ],
@@ -75,6 +87,9 @@ export const listProduct = [
     images: [
       {
         url: '/images/products/product05.webp',
+        url1: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/ce9940bb577147616b4b1c0a4123b65de579911b.jpg?imwidth=70',
+        url2: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/e5eef2037c058b5280e6f952004a6123aa3b8534.jpg?imwidth=70',
+        url3: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/2dbe6cad5c3625c262e8bef2e33e1049dc25a74e.jpg?imwidth=70',
         description: 'Suéter Masculina Manga Longa Tricot Azul Escuro'
       }
     ],
@@ -91,6 +106,9 @@ export const listProduct = [
     images: [
       {
         url: '/images/products/product06.webp',
+        url1: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/ce9940bb577147616b4b1c0a4123b65de579911b.jpg?imwidth=70',
+        url2: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/e5eef2037c058b5280e6f952004a6123aa3b8534.jpg?imwidth=70',
+        url3: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/2dbe6cad5c3625c262e8bef2e33e1049dc25a74e.jpg?imwidth=70',
         description: 'Blusa Feminina Manga Curta Onça Preto'
       }
     ],
@@ -107,6 +125,9 @@ export const listProduct = [
     images: [
       {
         url: '/images/products/product07.webp',
+        url1: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/ce9940bb577147616b4b1c0a4123b65de579911b.jpg?imwidth=70',
+        url2: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/e5eef2037c058b5280e6f952004a6123aa3b8534.jpg?imwidth=70',
+        url3: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/2dbe6cad5c3625c262e8bef2e33e1049dc25a74e.jpg?imwidth=70',
         description: 'Blusa de Moletom Feminina Manga Curta Animal Print Zebra Branco'
       }
     ],
@@ -123,6 +144,9 @@ export const listProduct = [
     images: [
       {
         url: '/images/products/product08.webp',
+        url1: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/ce9940bb577147616b4b1c0a4123b65de579911b.jpg?imwidth=70',
+        url2: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/e5eef2037c058b5280e6f952004a6123aa3b8534.jpg?imwidth=70',
+        url3: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/2dbe6cad5c3625c262e8bef2e33e1049dc25a74e.jpg?imwidth=70',
         description: 'Blusa Feminina Ampla Manga Curta Listrada Preto'
       }
     ],

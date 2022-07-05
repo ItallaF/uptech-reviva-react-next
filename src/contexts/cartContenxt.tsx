@@ -14,13 +14,12 @@ interface ICartContext {
 }
 
 
-export const CartContext = createContext<ICartContext>({ ProductCart: [], setProductCart: (ProductCart: CartItens[])=> []});
+export const CartContext = createContext<ICartContext>({ ProductCart: [], setProductCart: (ProductCart: CartItens[]) => [] });
 CartContext.displayName = "Cart";
 
 export const CartProvider = ({ children }: ICartProvider) => {
     const [ProductCart, setProductCart] = useState<CartItens[]>([]);
 
-    
     return (
         <CartContext.Provider value={{ ProductCart, setProductCart }}>
             {children}
@@ -32,39 +31,58 @@ export function useCartContext() {
     const { ProductCart, setProductCart } = useContext(CartContext);
 
     const newQuanty = (id: number, quantityAvailable: number) =>
-    ProductCart.map(item => {
-        if(item.id === id) (item.quantityAvailable += quantityAvailable);
-        return item;
-    });
+        ProductCart.map(item => {
+            if (item.id === id) (item.quantityAvailable += quantityAvailable);
+            return item;
+        });
 
-    function addProductCart(newProduct: CartItens) {
-        const productInCart = ProductCart.some(item => item.id === newProduct.id);
+    async function addProductCart(newProduct: CartItens) {
+        const productInCart = ProductCart.some((item: { id: number }) => item.id === newProduct.id);
 
         let newCart = [...ProductCart];
-        if(!productInCart) {
+
+        if (!productInCart) {
             newProduct.quantityAvailable = 1;
+            const response = await fetch('/api/productCart', {
+                method: 'POST',
+                body: JSON.stringify({
+                    id: newProduct.id,
+                    nameProduct: newProduct.nameProduct,
+                    url: newProduct.url,
+                    price: newProduct.price,
+                    description: newProduct.description,
+                    sizesAvailable: newProduct.sizesAvailable,
+                    quantityAvailable: newProduct.quantityAvailable,
+                    sectionProduct: newProduct.sectionProduct,
+                    images: newProduct.images
+                }),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            const newProductCart = await response.json()
             newCart.push(newProduct);
             return setProductCart(newCart);
         }
         newCart = newQuanty(newProduct.id, +1);
         setProductCart(newCart);
 
-        
+
     };
 
     function removeProduct(id: number) {
         const product = ProductCart.find(item => item.id === id);
-        const  lastProduct = product?.quantityAvailable === 1;
+        const lastProduct = product?.quantityAvailable === 1;
         let newCart
-        if(lastProduct) {
+        if (lastProduct) {
             newCart = ProductCart.filter(item => item.id !== id);
             return setProductCart(newCart);
         }
         newCart = newQuanty(id, -1);
-        setProductCart(newCart);        
+        setProductCart(newCart);
     }
-    
-    return{
+
+    return {
         ProductCart,
         setProductCart,
         newQuanty,

@@ -1,4 +1,4 @@
-import { ProductStock } from '../types/types';
+import { CartItens, ProductStock } from '../types/types';
 import { ProductListButton, ProductListButtonBag, ProductListButtonSvg, ProductListContent, ProductListImageBorder, ProductListImageButton, ProductListImageButtonSize, ProductListImageButtonSizeInput, ProductListImageSize, ProductListPrice, ProductListSection, ProductListText, ProductListTitle } from './styledListProduct';
 import { useCartContext } from '../../contexts/cartContenxt';
 import { useProductContext } from '../../contexts/productContext';
@@ -14,14 +14,6 @@ interface ProductlistProps {
 export default function ProductList({ title, ProductsSection }: ProductlistProps) {
 	const { addProductCart } = useCartContext();
 	const decrement = useProductContext();
-
-	const [listproducts, setListproducts] = useState<ProductStock[]>([]);
-	// const fetchProduct = async () => {
-	// 	const response = await fetch('/api/Details')
-	// 	const data = await response.json();
-	// 	setListproducts(data);
-	//     console.log(data);
-	//   }
 
 	return (
 		<aside>

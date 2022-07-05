@@ -8,7 +8,7 @@ export default function ProductBag(): any {
 
 
 	return (
-		ProductCart?.map((products) =>
+		ProductCart.map((products) =>
 			<ProductMyBag key={products.id}>
 				<MyBagImage>
 					<MyBagImageProduct src={products.images[0].url}></MyBagImageProduct>
