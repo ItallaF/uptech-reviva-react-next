@@ -40,7 +40,7 @@ export function useCartContext() {
         const productInCart = ProductCart.some((item: { id: number }) => item.id === newProduct.id);
 
         let newCart = [...ProductCart];
-
+        console.log(newCart)
         if (!productInCart) {
             newProduct.quantityAvailable = 1;
             const response = await fetch('/api/productCart', {

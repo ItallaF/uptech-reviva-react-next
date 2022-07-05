@@ -7,7 +7,6 @@ const handlerCart = (request: NextApiRequest, response: NextApiResponse) => {
 
         switch (method) {
             case 'POST':
-                //response.status(200).json(Cart);
                 const id = request.body.id;
                 const nameProduct = request.body.nameProduct;
                 const url = request.body.url;
@@ -28,8 +27,7 @@ const handlerCart = (request: NextApiRequest, response: NextApiResponse) => {
                     sectionProduct,
                     images
                 }
-                Cart.push(newProduct)
-                console.log(Cart);
+                Cart.push(newProduct);                
                 break;
             default:
                 response.status(405).end(`Method ${method} Not Allowed`);
