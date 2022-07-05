@@ -1,3 +1,1 @@
-export const Cart = [{
-    
-}]
+export const cart = [{}];

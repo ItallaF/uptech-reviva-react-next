@@ -3,6 +3,13 @@ import { colorBackgroundButton, colorBorder, colorText, colorTextDestaque, font 
 
 export const DetailsProducContent = styled.div`
   width: 100%;
+  @media screen and (max-width: 576px){
+	margin-top: 4%;
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px){
+	margin-top: 4%;
+}
 `;
 
 export const DetailsProducContentTitle = styled.h3`
@@ -29,7 +36,7 @@ export const ProductDescriptionImage = styled.div`
 `;
 
 export const ProductImageEdge = styled.figure`
-	border: 1px solid ${colorBorder};
+	
 	height: 25vh;
 	padding: 1%;
 	width: 10vw;
@@ -48,6 +55,7 @@ export const ProductImageEdge = styled.figure`
 
 export const ProductImageDescription = styled.img`
 	height: 100%;
+	width: 100%;
 `;
 
 export const ButtonImage = styled.div`

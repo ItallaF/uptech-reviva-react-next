@@ -1,12 +1,11 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { Cart } from '../../../src/datas/cart';
+import { cart } from '../../../src/datas/cart';
 import { listProduct } from '../../../src/datas/date';
 
 const handler = (request: NextApiRequest, response: NextApiResponse) => {
   const { method } = request;
 
   if (method === "GET") {
-    console.log(listProduct)
     return response.status(200).json(listProduct);
   }
 
@@ -31,9 +30,9 @@ const handler = (request: NextApiRequest, response: NextApiResponse) => {
       sectionProduct,
       images
     }
-    Cart.push(newProduct)
-    //.response.status(201).json(newProduct);
-    return response.status(200).json(Cart);
+    cart.push(newProduct);
+    console.log(cart);
+    return response.status(201).json({cart});
   }
 };
 

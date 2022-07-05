@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const ImageProduct = styled.img`
-    height: 95%;
+    height: 100%;
     margin: 2%;
-    width: 95%;
+    width: 90%;
 `;

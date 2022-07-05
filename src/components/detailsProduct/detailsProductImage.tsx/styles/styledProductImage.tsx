@@ -3,7 +3,6 @@ import { colorBorder } from '../../../variables';
 
 
 const ImageDetails = styled.figure`
-	border: 1px solid ${colorBorder};
 	height: 96vh;
 	width: 37vw;
 	margin: 0%; 

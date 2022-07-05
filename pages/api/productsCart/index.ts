@@ -1,11 +1,13 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { Cart } from '../../../src/datas/cart';
+import { cart } from '../../../src/datas/cart';
 
 const handlerCart = (request: NextApiRequest, response: NextApiResponse) => {
     try {
         const { method } = request;
 
         switch (method) {
+            case 'GET':
+                return response.status(200).json({ cart });
             case 'POST':
                 const id = request.body.id;
                 const nameProduct = request.body.nameProduct;
@@ -27,8 +29,8 @@ const handlerCart = (request: NextApiRequest, response: NextApiResponse) => {
                     sectionProduct,
                     images
                 }
-                Cart.push(newProduct);                
-                break;
+                cart.push(newProduct);
+                return response.status(201).json({ newProduct });
             default:
                 response.status(405).end(`Method ${method} Not Allowed`);
         }

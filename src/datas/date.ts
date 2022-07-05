@@ -68,9 +68,9 @@ export const listProduct = [
     images: [
       {
         url: '/images/products/product04.webp',
-        url1: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/ce9940bb577147616b4b1c0a4123b65de579911b.jpg?imwidth=70',
-        url2: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/e5eef2037c058b5280e6f952004a6123aa3b8534.jpg?imwidth=70',
-        url3: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/2dbe6cad5c3625c262e8bef2e33e1049dc25a74e.jpg?imwidth=70',
+        url1: 'https://static.riachuelo.com.br/RCHLO/14387026005/portrait/c237d49f1ab49834b1115c5aa1d29933aa2f9f86.jpg?imwidth=70',
+        url2: 'https://static.riachuelo.com.br/RCHLO/14387026005/portrait/5c56fcfd1f8ad441a2635aa68c371a9973ff25ca.jpg?imwidth=70',
+        url3: 'https://static.riachuelo.com.br/RCHLO/14387026005/portrait/a8e40347d749219517f155755552962cdc5086f5.jpg?imwidth=70',
         description: 'Suéter Masculina Manga Longa Tricot Azul Escuro'
       }
     ],
@@ -87,9 +87,9 @@ export const listProduct = [
     images: [
       {
         url: '/images/products/product05.webp',
-        url1: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/ce9940bb577147616b4b1c0a4123b65de579911b.jpg?imwidth=70',
-        url2: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/e5eef2037c058b5280e6f952004a6123aa3b8534.jpg?imwidth=70',
-        url3: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/2dbe6cad5c3625c262e8bef2e33e1049dc25a74e.jpg?imwidth=70',
+        url1: 'https://static.riachuelo.com.br/RCHLO/11970979001/portrait/7a78d3337e14bfe6ad7dae20f8c3cb78842eacce.jpg?imwidth=70',
+        url2: 'https://static.riachuelo.com.br/RCHLO/11970979001/portrait/a72c34d9b9170e7c2db2a58be1a64edee733a9cb.jpg?imwidth=70',
+        url3: 'https://static.riachuelo.com.br/RCHLO/11970979001/portrait/91eed20fe4bf5902fa10087339812cd5bd7956c2.jpg?imwidth=70',
         description: 'Suéter Masculina Manga Longa Tricot Azul Escuro'
       }
     ],
@@ -106,9 +106,9 @@ export const listProduct = [
     images: [
       {
         url: '/images/products/product06.webp',
-        url1: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/ce9940bb577147616b4b1c0a4123b65de579911b.jpg?imwidth=70',
-        url2: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/e5eef2037c058b5280e6f952004a6123aa3b8534.jpg?imwidth=70',
-        url3: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/2dbe6cad5c3625c262e8bef2e33e1049dc25a74e.jpg?imwidth=70',
+        url1: 'https://static.riachuelo.com.br/RCHLO/14518708001/portrait/c049d2b0c030ea1d07ad94546c47a5a7a7e1d830.jpg?imwidth=70',
+        url2: 'https://static.riachuelo.com.br/RCHLO/14518708001/portrait/6741ef90f225673cd0eb7819779feabb9cacc1b3.jpg?imwidth=70',
+        url3: 'https://static.riachuelo.com.br/RCHLO/14518708001/portrait/dfdfa22b8af1136d920c1747230ffddc1d2fc31a.jpg?imwidth=70',
         description: 'Blusa Feminina Manga Curta Onça Preto'
       }
     ],
@@ -125,9 +125,9 @@ export const listProduct = [
     images: [
       {
         url: '/images/products/product07.webp',
-        url1: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/ce9940bb577147616b4b1c0a4123b65de579911b.jpg?imwidth=70',
-        url2: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/e5eef2037c058b5280e6f952004a6123aa3b8534.jpg?imwidth=70',
-        url3: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/2dbe6cad5c3625c262e8bef2e33e1049dc25a74e.jpg?imwidth=70',
+        url1: 'https://static.riachuelo.com.br/RCHLO/14517736001/portrait/4ff598cb1662cae07b7c85e31308d8373a9df7e8.jpg?imwidth=70',
+        url2: 'https://static.riachuelo.com.br/RCHLO/14517736001/portrait/7f225df1a93aa9c9d51cc9f0110289d2d137bbc6.jpg?imwidth=70',
+        url3: 'https://static.riachuelo.com.br/RCHLO/14517736001/portrait/90d25056f40444d570bd3ec122be1ae9a01d4a69.jpg?imwidth=70',
         description: 'Blusa de Moletom Feminina Manga Curta Animal Print Zebra Branco'
       }
     ],
@@ -144,9 +144,9 @@ export const listProduct = [
     images: [
       {
         url: '/images/products/product08.webp',
-        url1: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/ce9940bb577147616b4b1c0a4123b65de579911b.jpg?imwidth=70',
-        url2: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/e5eef2037c058b5280e6f952004a6123aa3b8534.jpg?imwidth=70',
-        url3: 'https://static.riachuelo.com.br/RCHLO/11535253001/portrait/2dbe6cad5c3625c262e8bef2e33e1049dc25a74e.jpg?imwidth=70',
+        url1: 'https://static.riachuelo.com.br/RCHLO/14517582002/portrait/6b9b09b1ae5ec076d50b2650e34e7236a29dae75.jpg?imwidth=70',
+        url2: 'https://static.riachuelo.com.br/RCHLO/14517582002/portrait/6b9b09b1ae5ec076d50b2650e34e7236a29dae75.jpg?imwidth=70',
+        url3: 'https://static.riachuelo.com.br/RCHLO/14517582002/portrait/d7c0936badec5765b1588f1058a0da13754a9ae7.jpg?imwidth=70',
         description: 'Blusa Feminina Ampla Manga Curta Listrada Preto'
       }
     ],

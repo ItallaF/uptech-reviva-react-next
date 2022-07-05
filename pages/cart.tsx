@@ -4,17 +4,18 @@ import ProductBag from '../src/components/bag/product_cart';
 import { NextPageWithLayout } from './_app';
 import Layout from '../src/components/layout';
 import { ReactElement } from 'react';
+import { MyBag } from '../src/components/bag/styledMyBag';
 
 
 const PageCart: NextPageWithLayout = () => {
 	return (
 		<>
-			<section>
+			<MyBag>
 				<ProductBag />
 				<MyBag2>
 					<Total />
 				</MyBag2>
-			</section>
+			</MyBag>
 		</>
 	);
 }
