@@ -5,7 +5,7 @@ import { colorBorder, colorPreco, colorText } from '../variables';
 export const ProductMyBag = styled.section`
 	display: grid;
 	gap: 7em;
-	grid-template-columns: 16% 18% 14% 13% 7% 20%;
+	grid-template-columns: 16% 18% 14% 13% 7% 11%;
 	margin: 2% 4%;
 	text-align: center;
 	width: 90%;
@@ -142,7 +142,7 @@ export const MyBagProductPrice = styled.p`
 	font-weight: bold;
 	font-size: 1.8rem;
 	line-height: 5vh;
-	text-align: center;
+	text-align: start;
 	width: 100%;
 	@media screen and (max-width: 576px){
 		text-align:center;
@@ -199,9 +199,8 @@ export const MyBag2 = styled.div`
 	display: grid;
 	margin-top: 4%;
 	grid-row: 1/span 2;
-    grid-column: 7/7;
+	grid-column: 7/7;
 	width: 20vw;
-
 	@media screen and (max-width: 576px){
 		grid-template-columns: none;
 	}
